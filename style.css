@@ -1,0 +1,185 @@
+.Logo__TheTower {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* ----------------------- NAVBAR ------------------------------*/
+
+ul {
+  list-style: none;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  border: solid 2px black;
+  background-image: linear-gradient(to bottom, #d90404, #730202);
+  width: 100%;
+}
+
+.nav-link:hover {
+  background-color: black;
+  color: #d91e2e !important;
+}
+ul a.nav-link {
+  color: white;
+}
+
+button.navbar-toggler {
+  background-color: #d90404;
+  border-radius: 2px;
+  border: solid 1px black;
+}
+.navbar-toggler-icon {
+  color: black;
+}
+.container-fluid {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+}
+
+/* ----------------------- MAIN ---------------------------*/
+
+main {
+  background-image: linear-gradient(to bottom, #730202, #d90404);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1%;
+}
+
+.londonImg {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.text {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3%;
+  margin-left: 2%;
+}
+
+@media only screen and (min-width: 960px) {
+  /* larger than 960px*/
+  .londonImg {
+    width: 45rem;
+    height: 70rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  /* larger than 1400px*/
+  .londonImg {
+    width: 20rem;
+    height: 50rem;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  /* mac */
+  .londonImg {
+    width: 20rem;
+    height: 50rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* smaller than 480px*/
+  .londonImg {
+    width: 20rem;
+    height: 30rem;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* portrait only*/
+  .londonImg {
+    width: 20rem;
+    height: 30rem;
+  }
+}
+
+/*--------------------------  FOOTER  ----------------------------------------------------- */
+
+.footer__button--modifier {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  justify-content: center;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(185, 175, 175),
+    rgb(26, 25, 25)
+  );
+
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* .container__footer {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to bottom, #d90404, #730202);
+} */
+
+.Buttons__Footer--SocialMedia {
+  color: white;
+}
+
+.Whatsapp__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 55px;
+  height: 55px;
+}
+
+.Buttons__Footer--SocialMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Facebook__btn {
+  padding: 3%;
+}
+
+.btn {
+  background-image: linear-gradient(to bottom, #d90404, #730202);
+  text-decoration: none;
+}
+.btn-fb {
+  text-decoration: none;
+}
+.btn-ig {
+  text-decoration: none;
+}
+
+.webby {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.webby-link {
+  margin-top: 1%;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+.webby-link:hover {
+  color: white;
+  background-color: #000000;
+}
