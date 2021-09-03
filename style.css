@@ -183,3 +183,68 @@ main {
   color: white;
   background-color: #000000;
 }
+
+/* ------------------------ CONTACTO -------------------------------------*/
+
+.NA {
+  display: grid;
+  grid-template-columns: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.Formulario {
+  margin: 2%;
+  padding: 2%;
+  color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+.Mensaje {
+  display: grid;
+  grid-template-columns: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.EnviarLimpForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Button__Contacto--Enviar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px rgb(85, 2, 2);
+  background-image: linear-gradient(to bottom, red, rgb(139, 3, 3));
+  color: white;
+}
+
+.Button__Contacto--LimpiarForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px rgb(85, 2, 2);
+  width: 150px;
+  margin-left: 3%;
+  background-image: linear-gradient(to bottom, red, rgb(139, 3, 3));
+  color: white;
+}
+
+@media only screen and (min-width: 500px) {
+  .cons__menu--btn {
+    margin-left: 35%;
+  }
+}
+
+.gracias {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
